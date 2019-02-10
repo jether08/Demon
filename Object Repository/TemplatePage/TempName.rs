@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>TempName</name>
+   <tag></tag>
+   <elementGuidId>7d4534f3-10fe-4611-9ecf-47a4ef9a41bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;noteTitle-1b2e3a7bb4ee497f9fe785c855907dae&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;noteTitle-1b2e3a7bb4ee497f9fe785c855907dae&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

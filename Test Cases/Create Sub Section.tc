@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating new sub section using drag and drop</description>
+   <name>Create Sub Section</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>02d88103-3781-494f-ae2d-2b7a90b50373</testCaseGuid>
+</TestCaseEntity>
