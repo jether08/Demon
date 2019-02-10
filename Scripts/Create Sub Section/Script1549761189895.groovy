@@ -59,7 +59,7 @@ WebUI.delay(5)
 
 WebUI.dragAndDropToObject(findTestObject('TemplatePage/DragSection'), findTestObject('TemplatePage/DropContainer'))
 
-WebUI.delay(4)
+WebUI.delay(3)
 
 //VALIDATIONS:
 //Verify that a new field is added in
