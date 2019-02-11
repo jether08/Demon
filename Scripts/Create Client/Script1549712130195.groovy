@@ -55,6 +55,7 @@ WebUI.click(findTestObject('ClientPage/ClientSave_btn'))
 
 WebUI.delay(10)
 
+//Loop all rows and column to compare text inside
 
 String ExpectedValue = GlobalVariable.ClientName;
 
@@ -81,6 +82,8 @@ for (int row = 1; row < rows_count; row++) {
 	String celltext = Columns_row.get(0).getText()
 	
 	System.out.println(celltext);
+	
+// Assert text comparison
 	
 	if (celltext == '  ' + ExpectedValue) {
 

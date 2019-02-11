@@ -28,7 +28,7 @@ WebUI.delay(15)
 //Click App Designer Menu
 WebUI.click(findTestObject('Homepage/AppDesigner'))
 
-WebUI.delay(5)
+WebUI.delay(7)
 
 
 //Click Template Action button
@@ -62,14 +62,14 @@ WebUI.dragAndDropToObject(findTestObject('TemplatePage/DragSection'), findTestOb
 WebUI.delay(3)
 
 //VALIDATIONS:
-//Verify that a new field is added in
+//Verify that a new controller is added inside canvas area
 
 int Seconddivs = driver.findElements(By.xpath('//*[@class="col-md-12 section-list-on-document"]/div')).size()
 
 System.out.println(Seconddivs)
 
 
-if(Seconddivs==(firstdivs+1)){
+if(Seconddivs > firstdivs){
 	
 		KeywordUtil.markPassed("New Sub Section is added successfuly in Canvas Area");
 }
